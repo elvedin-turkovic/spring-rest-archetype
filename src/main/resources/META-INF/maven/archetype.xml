@@ -1,0 +1,13 @@
+<archetype>
+  <id>spring-rest-archetype</id>
+  <sources>
+    <source>src/main/java/status/StatusController.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/DummyTest.java</source>
+  </testSources>
+  <resources>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    <resource>src/main/webapp/WEB-INF/spring.xml</resource>
+  </resources>
+</archetype>
